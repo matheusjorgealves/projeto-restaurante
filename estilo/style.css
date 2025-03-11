@@ -75,6 +75,9 @@ main p{
     margin-bottom: 5px;
     text-align: justify;
 }
+main img{
+    width: 100%;
+}
 
 
 footer{

@@ -6,11 +6,13 @@
 
 *{
     margin: 0px;
+    padding: 0px;
 }
 
 
 body{
     background-color: white;
+    min-height: 100vh;
 }
 
 
@@ -86,6 +88,29 @@ main li{
 }
 main img{
     width: 100%;
+}
+main section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+main section.imagem{
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.466);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+main section.imagem p{
+    background-color: rgba(0, 0, 0, 0.562);
+    color: white;
+    display: inline-block;
+    padding: 5px;
+}
+main section#lasanha{
+    background-image: url(../imagens/lasanha-italiana.jpeg);
+    background-position: center center;
+}
+main section#macarrao{
+    background-image: url(../imagens/macarrao-italiano.jpg);
 }
 
 

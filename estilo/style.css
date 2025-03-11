@@ -68,12 +68,21 @@ main h2{
     font-size: 4em;
     text-align: center;
 }
+main h3{
+    margin: 20px 0px 20px 0px;
+    color: rgb(27, 6, 0);
+    font-size: 2em;
+    text-align: left;
+}
 main p{
     font-size: 1.8em;
     text-indent: 20px;
     line-height: 40px;
     margin-bottom: 5px;
     text-align: justify;
+}
+main li{
+    font-size: 0.8em;
 }
 main img{
     width: 100%;

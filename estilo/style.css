@@ -11,7 +11,7 @@
 
 
 body{
-    background-color: white;
+    background-color: rgb(163, 160, 0);
     height: 100vh;
 }
 
@@ -41,7 +41,6 @@ nav{
 }
 nav a{
     background-color: rgb(255, 251, 0);
-    rgb(192, 54, 0);
     color: rgb(36, 8, 1);
     font-size: 1.7em;
     text-decoration: none;
@@ -61,9 +60,11 @@ nav a:hover{
 main{
     max-width: 1000px;
     min-width: 200px;
-    background-color: white;
+    background-color: rgb(247, 246, 220);
     margin: auto;
     padding: 0px 15px 0px 15px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 main h2{
     margin: 30px 0px 30px 0px;

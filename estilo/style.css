@@ -12,7 +12,7 @@
 
 body{
     background-color: white;
-    min-height: 100vh;
+    height: 100vh;
 }
 
 
@@ -40,7 +40,8 @@ nav{
     padding-bottom: 25px;
 }
 nav a{
-    background-color: rgb(192, 54, 0);
+    background-color: rgb(255, 251, 0);
+    rgb(192, 54, 0);
     color: rgb(36, 8, 1);
     font-size: 1.7em;
     text-decoration: none;
@@ -90,27 +91,35 @@ main img{
     width: 100%;
 }
 main section{
-    padding-top: 10vh;
     padding-bottom: 10vh;
+    padding-top: 10vh;
 }
 main section.imagem{
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.466);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: center center;
+    padding: 25vh 0vh 25vh 0vh;
 }
 main section.imagem p{
     background-color: rgba(0, 0, 0, 0.562);
     color: white;
     display: inline-block;
     padding: 5px;
+    max-width: 500px;
+}
+main section#pizza p{
+    margin-left: 10px;
 }
 main section#lasanha{
     background-image: url(../imagens/lasanha-italiana.jpeg);
-    background-position: center center;
 }
 main section#macarrao{
     background-image: url(../imagens/macarrao-italiano.jpg);
+}
+main section#pizza{
+    background-image: url(../imagens/pizza-italiana.jpg);
 }
 
 

@@ -13,6 +13,7 @@
 body{
     background-color: rgb(163, 160, 0);
     height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -53,7 +54,7 @@ nav a{
     transition-duration: .5s;
 }
 nav a:hover{
-    background-color: rgb(255, 251, 0);
+    background-color: rgb(163, 160, 0);
 }
 
 
@@ -62,12 +63,12 @@ main{
     min-width: 200px;
     background-color: rgb(247, 246, 220);
     margin: auto;
-    padding: 0px 15px 0px 15px;
+    padding: 20px 15px 0px 15px;
     padding-left: 40px;
     padding-right: 40px;
 }
 main h2{
-    margin: 30px 0px 30px 0px;
+    margin: 40px 0px 40px 0px;
     color: rgb(36, 8, 1);
     font-size: 4em;
     text-align: center;
@@ -79,11 +80,12 @@ main h3{
     text-align: left;
 }
 main p{
-    font-size: 1.8em;
+    font-size: 1.6em;
     text-indent: 20px;
-    line-height: 40px;
+    line-height: 45px;
     margin-bottom: 5px;
     text-align: justify;
+    font-weight: normal;
 }
 main li{
     font-size: 0.8em;
@@ -121,6 +123,17 @@ main section#macarrao{
 }
 main section#pizza{
     background-image: url(../imagens/pizza-italiana.jpg);
+}
+main section#drink-limao{
+    background-image: url(../imagens/drink-limao.jpg);
+    background-position: center right;
+}
+main section#drink-italiano{
+    background-image: url(../imagens/drinks-italianos.jpeg);
+    background-position: center right;
+}
+main section#soda-italiana{
+    background-image: url(../imagens/soda-italiana.jpg);
 }
 
 

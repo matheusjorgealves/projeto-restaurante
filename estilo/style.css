@@ -10,39 +10,50 @@
 }
 
 
+:root{
+    --fonte-principal: 'principal';
+
+    --cor01: rgb(247, 246, 220);
+    --cor02: rgb(255, 251, 0);
+    --cor03: rgb(163, 160, 0);
+    --cor04: rgb(236, 107, 1);
+    --cor05: rgb(36, 8, 1);
+}
+
+
 body{
-    background-color: rgb(163, 160, 0);
+    background-color: var(--cor03);
     height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 
 header{
-    background-color: rgb(36, 8, 1);  
+    background-color: var(--cor05);  
     padding-top: 15vh;
     padding-bottom: 15vh;
     text-align: center;
 }
 header h1{
     font-size: 8em;
-    color: rgb(255, 251, 0);
+    color: var(--cor02);
     padding-bottom: 5px;
     font-family: 'principal';
     font-weight: normal;
 }
 header p{
     font-size: 2.5em;
-    color: rgb(163, 160, 0);
+    color: var(--cor03);
 }
 
 
 nav{
-    background-color: rgb(36, 8, 1);
+    background-color: var(--cor05);
     padding-bottom: 25px;
 }
 nav a{
-    background-color: rgb(255, 251, 0);
-    color: rgb(36, 8, 1);
+    background-color: var(--cor02);
+    color: var(--cor05);
     font-size: 1.7em;
     text-decoration: none;
     font-weight: bold;
@@ -54,14 +65,14 @@ nav a{
     transition-duration: .5s;
 }
 nav a:hover{
-    background-color: rgb(163, 160, 0);
+    background-color: var(--cor03);
 }
 
 
 main{
     max-width: 1000px;
     min-width: 200px;
-    background-color: rgb(247, 246, 220);
+    background-color: var(--cor01);
     margin: auto;
     padding: 20px 15px 0px 15px;
     padding-left: 40px;
@@ -69,13 +80,13 @@ main{
 }
 main h2{
     margin: 40px 0px 40px 0px;
-    color: rgb(36, 8, 1);
+    color: var(--cor05);
     font-size: 4em;
     text-align: center;
 }
 main h3{
     margin: 20px 0px 20px 0px;
-    color: rgb(27, 6, 0);
+    color: var(--cor05);
     font-size: 2em;
     text-align: left;
 }
@@ -138,8 +149,8 @@ main section#soda-italiana{
 
 
 footer{
-    background-color: rgb(36, 8, 1);
-    color: rgb(255, 251, 0);
+    background-color: var(--cor05);
+    color: var(--cor02);
     text-align: center;
 }
 footer p{
@@ -148,7 +159,7 @@ footer p{
 }
 footer a{
     text-decoration: none;
-    color: rgb(236, 107, 1);
+    color: var(--cor04);
 }
 footer a:hover{
     text-decoration: underline;

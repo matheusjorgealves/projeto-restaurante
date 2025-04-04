@@ -148,6 +148,27 @@ main section#soda-italiana{
 }
 
 
+iframe{
+    display: block;
+    margin: auto;
+    width: 600px;
+    height: 600px;
+    border: 2px solid black;
+}
+
+
+ul a{
+    font-size: 2.5em;
+    text-decoration: none;
+    color: var(--cor04);
+}
+ul a:hover{
+    color: var(--cor05);
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
 footer{
     background-color: var(--cor05);
     color: var(--cor02);

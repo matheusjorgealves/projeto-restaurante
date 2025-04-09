@@ -172,6 +172,36 @@ ul a:hover{
 }
 
 
+table{
+    margin: auto;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+caption{
+    font-size: 1.6em;
+    padding: 10px;
+    background-color: var(--cor05);
+    color: var(--cor02);
+    font-weight: bold;
+}
+
+th{
+    font-size: 1.2em;
+    background-color: var(--cor05);
+    color: var(--cor01);
+    border: 1px solid white;
+}
+
+td, th{
+    padding: 30px;
+}
+
+
 footer{
     background-color: var(--cor05);
     color: var(--cor02);

@@ -148,8 +148,20 @@ main section#soda-italiana{
 }
 
 
-section#iframe{
-    width: 300px;
+section#tela{
+    width: 350px;
+    position: relative;
+    top: -40px;
+    left: 50%;
+    transform: translate(-50%);
+    background: url(../imagens/frame-iphone.png) no-repeat;
+}
+iframe#tela{
+    position: relative;
+    top: -15px;
+    left: -18px;
+    height: 471px;
+    width: 269px;
 }
 
 

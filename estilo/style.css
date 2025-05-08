@@ -65,7 +65,9 @@ nav a{
     transition-duration: .5s;
 }
 nav a:hover{
-    background-color: var(--cor03);
+    background-color: rgb(20, 5, 1);
+    border: 1px solid rgb(255, 251, 0);
+    color: white;
 }
 
 

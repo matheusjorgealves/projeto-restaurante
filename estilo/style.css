@@ -50,11 +50,28 @@ header p{
 }
 
 
-nav{
+i#burguer {
+    display: block;
+    color: white;
     background-color: var(--cor05);
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+}
+
+i#burguer:hover{
+    background-color: rgb(66, 15, 2);
+    transition-duration: .5s;
+}
+
+
+nav{
+    background-color: rgb(66, 15, 2);
     padding-bottom: 25px;
+    display: none;
 }
 nav a{
+    display: block;
     background-color: var(--cor02);
     color: var(--cor05);
     font-size: 1.5em;
@@ -65,6 +82,12 @@ nav a{
     margin: 10px;
     border-radius: 10px;
     transition-duration: .5s;
+    width: 30vw;
+    margin: auto;
+   
+    text-align: center;
+    margin-bottom: 20px;
+    
 }
 nav a:hover{
     background-color: rgb(20, 5, 1);
@@ -78,9 +101,11 @@ main{
     max-width: 1000px;
     background-color: var(--cor01);
     margin: auto;
+    margin-top: 50px;
     padding: 20px 15px 0px 15px;
     padding-left: 40px;
     padding-right: 40px;
+    border-radius: 30px;
 }
 main h2{
     margin: 40px 0px 40px 0px;

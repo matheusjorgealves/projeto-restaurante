@@ -58,7 +58,6 @@ i#burguer {
     padding: 20px;
     cursor: pointer;
     font-size: 3em;
-    border: 1px solid var(--cor01);
 }
 
 i#burguer:hover{

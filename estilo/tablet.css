@@ -18,5 +18,6 @@ nav#menu {
 nav > a {
     display: inline-block;
     width: 200px;
-    margin: 10px;
+    margin: 15px;
+    padding: 10px;
 }
